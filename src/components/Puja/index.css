@@ -1,0 +1,54 @@
+.show {
+    background-color: rgb(240, 216, 220);
+    padding: 120px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project > div {
+    width: 100%;
+}
+
+.project {
+    width: 100%;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.slide {
+    width: 700px;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.num > li:nth-child(1) {
+    background-color: #cbdcf1;
+    color: #025ac0;
+    border-radius: 10px;
+}
+
+.num > li:nth-child(2) {
+    background-color: rgb(89, 122, 161);
+    color: #390add;
+    border-radius: 10px;
+}
+
+.num > li:nth-child(3) {
+    background-color: #d3518c;
+    color: #a80d53;
+    border-radius: 10px;
+}
+
+ul > li > p {
+    color: rgb(52, 177, 52);
+}
